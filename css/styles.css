@@ -1,5 +1,9 @@
 /* header */
-.logo {
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.first-logo {
     text-decoration: none;
 }
 
@@ -15,7 +19,7 @@
     color: #4D5AE5;
 }
 
-.logo {
+.first-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -25,6 +29,11 @@
     text-transform: uppercase;
     color: #2E2F42;
 }
+/* main-background */
+.main-background {
+    background: #E5E5E5;
+}
+
 
 .list {
     list-style: none;
@@ -67,7 +76,9 @@
 }
 
 /* main */
-
+.background {
+    background: #2E2F42;;
+}
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -76,7 +87,7 @@ h1 {
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color:#2E2F42
+    color: #FFFFFF;
 }
 
 .modal-btn {
@@ -96,6 +107,7 @@ h1 {
 .modal-btn:focus {
     background-color: #404BBF ;
 }
+
 
 h3 {
     font-family: 'Roboto', sans-serif;
@@ -129,7 +141,9 @@ h2 {
     text-transform: capitalize;
     color: #2E2F42;
 }
-
+.our-team-background {
+    background: #F4F4FD;
+}
 .photo-list {
     list-style: none;
 }
@@ -161,4 +175,29 @@ h2 {
 
 .images {
     list-style: none;
+}
+.footer {
+    background: #2E2F42;
+}
+.second-logo {
+    text-decoration: none;
+}
+.second-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+.footer-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }
